@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="#ffffff00" android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+        <TextView android:textSize="20.0sp" android:textColor="#ff000000" android:padding="5.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/are_you_sure_you_want_a_hint" />
+        <TextView android:textSize="20.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@+id/hint_text_view" android:background="#ffff00ff" android:layout_width="fill_parent" android:layout_height="50.0sp" android:text="@string/hint1" />
+        <Button android:textSize="20.0sp" android:id="@+id/show_hint_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/show_hint" />
+        <Button android:textSize="20.0sp" android:id="@+id/exit_hint_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/exit1" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

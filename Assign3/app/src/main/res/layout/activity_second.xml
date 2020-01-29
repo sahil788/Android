@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/holo_red_light"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20.0sp"
+                android:text="City:"
+                android:textSize="30.0sp" />
+
+            <EditText
+                android:id="@+id/e_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="@string/city"
+                android:maxLength="8"
+                android:textSize="30.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/v_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20.0sp"
+                android:text="Name:"
+                android:textSize="30.0sp" />
+
+            <EditText
+                android:id="@+id/e_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="@string/name_1"
+                android:maxLength="8"
+                android:textSize="30.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/sport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20.0sp"
+                android:text="Sport:"
+                android:textSize="30.0sp" />
+
+            <EditText
+                android:id="@+id/e_sport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="@string/sport"
+                android:maxLength="8"
+                android:textSize="30.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/mvp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20.0sp"
+                android:text="MVP:"
+                android:textSize="30.0sp" />
+
+            <EditText
+                android:id="@+id/e_mvp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="@string/mvp"
+                android:maxLength="8"
+                android:textSize="30.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/stadium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20.0sp"
+                android:text="Stadium:"
+                android:textSize="30.0sp" />
+
+            <EditText
+                android:id="@+id/e_stadium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="@string/stadium"
+                android:maxLength="8"
+                android:textSize="30.0sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:color/holo_blue_light"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/submit"
+                style="?android:buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/submit"
+                android:textColor="#ff000000"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/exit"
+                style="?android:buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/exit"
+                android:textColor="#ff000000"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/update"
+                style="?android:buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="@string/btn_update"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/delete"
+                style="?android:buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="@string/btn_del"
+                android:textSize="25sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

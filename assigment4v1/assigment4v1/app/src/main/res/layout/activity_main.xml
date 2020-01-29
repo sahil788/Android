@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ff33b5e5"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#ffaa66cc"
+            android:text="@string/Studentname"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="25sp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="3dp">
+
+            <Button
+                android:id="@+id/buttonAddTeam"
+                android:layout_width="139dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#ff33b5e5"
+                android:text="@string/add_team"
+                android:textColor="#FFFF00"
+                android:textSize="28sp" />
+
+            <Button
+                android:id="@+id/buttonExit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#ff33b5e5"
+                android:text="@string/exit"
+                android:textColor="#FFFF00"
+                android:textSize="28sp" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/list1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff33b5e5"
+            android:divider="#ffffff"
+            android:dividerHeight="1dp"
+            android:scrollbars="none" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

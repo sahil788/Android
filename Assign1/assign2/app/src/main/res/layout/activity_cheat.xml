@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:gravity="center" android:orientation="vertical" android:background="#ffff0000" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:padding="5.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/are_you_sure_you_want_to_cheat" />
+        <TextView android:textSize="20.0sp" android:textColor="#ff000000" android:id="@+id/answer_text_view" android:background="#ffff00ff" android:padding="5.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/answer" />
+        <Button android:textSize="20.0sp" android:id="@+id/show_answer_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/show_answer_button" />
+        <Button android:textSize="20.0sp" android:id="@+id/exit_cheat_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/exit" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

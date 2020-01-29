@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Assign1</string>
+    <string name="name">Sahil Lapsiwala</string>
+    <string name="text1">Hi World</string>
+    <string name="rd1">Alice</string>
+    <string name="rd2">Bob</string>
+    <string name="rd3">Carol</string>
+    <string name="btn1">SAY HI</string>
+    <string name="text2">Hello Seneca</string>
+    <string name="rd4">Dave</string>
+    <string name="rd5">Eve</string>
+    <string name="rd6">Fred</string>
+    <string name="btn2">SAY HELLO</string>
+    <string name="red">Red</string>
+    <string name="yellow">Yellow</string>
+    <string name="green">Green</string>
+    <string name="colours">Colours</string>
+</resources>

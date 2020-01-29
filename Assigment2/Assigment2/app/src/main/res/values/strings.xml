@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Assigment2</string>
+    <string name="name">Sahil Lapsiwala</string>
+    <string name="Next"><![CDATA[Next >]]></string>
+    <string name="Prev"><![CDATA[< Prev]]></string>
+    <string name="mark">TOTAL MARKS:</string>
+    <string name="completednumb">QUESTIONS COMPLETED:</string>
+    <string name="question1" />
+    <string name="question_australia">1. Canberra is the capital of Australia. </string>
+    <string name="question_oceans">2.The Pacific Ocean is larger than the Atlantic Ocean. </string>
+    <string name="question_mideast">3.The Suez Canal connects the Red Sea and the Indian Ocean. </string>
+    <string name="question_africa">4.The source of the NileRiver is in Egypt. </string>
+    <string name="question_americas">5.The Amazon River is the longest river in the Americas. </string>
+    <string name="question_asia">6.Lake Baikal is the oldest and deepest freshwater lake. </string>
+    <string name="hint_australia">1.A resident of Canberra is known as a Canberran. </string>
+    <string name="hint_oceans">2.There are more fish in the Pacific Ocean. </string>
+    <string name="hint_mideast">3.The Suez Canal Connects two seas. </string>
+    <string name="hint_africa">4.Ask Omar for the answer.</string>
+    <string name="hint_americas">5.You can buy many books on the Amazon website. </string>
+    <string name="hint_asia">6.Lake Ontario is oe of the five Great Lakes. </string>
+    <string name="are_you_sure_you_want_to_cheat">Are you sure you want to cheat?</string>
+    <string name="show_answer_button">SHOW ANSWER</string>
+    <string name="exit">EXIT</string>
+    <string name="true_button">TRUE</string>
+    <string name="false_button">FALSE</string>
+    <string name="are_you_sure_you_want_a_hint">Are you sure you want a hint?</string>
+    <string name="show_hint">Show hint</string>
+    <string name="hint2">Hint</string>
+    <string name="judgment_toast">Cheating is Wrong!</string>
+    <string name="correct_toast_1">+1 mark</string>
+    <string name="correct_toast_2">+2 marks</string>
+    <string name="incorrect_toast_1">-2 marks</string>
+    <string name="incorrect_toast_2">-1 mark</string>
+</resources>
